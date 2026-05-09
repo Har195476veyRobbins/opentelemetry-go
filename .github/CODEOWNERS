@@ -1,0 +1,27 @@
+# Code owners for opentelemetry-go
+# See https://help.github.com/articles/about-code-owners/
+# for syntax documentation.
+
+# Default owners for everything in the repo
+* @open-telemetry/go-approvers
+
+# Maintainers own all files by default
+* @open-telemetry/go-maintainers
+
+# Bridge packages
+bridge/opencensus/ @open-telemetry/go-maintainers
+bridge/opentracing/ @open-telemetry/go-maintainers
+
+# Exporters
+exporters/otlp/ @open-telemetry/go-maintainers
+exporters/prometheus/ @open-telemetry/go-maintainers
+exporters/stdout/ @open-telemetry/go-maintainers
+exporters/zipkin/ @open-telemetry/go-maintainers
+
+# SDK
+sdk/ @open-telemetry/go-maintainers
+
+# API
+trace/ @open-telemetry/go-maintainers
+metric/ @open-telemetry/go-maintainers
+baggage/ @open-telemetry/go-maintainers
